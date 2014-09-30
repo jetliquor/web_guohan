@@ -1,8 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Guangfu extends CI_Controller {
 
-	public function Home()
+	public function Guangfu()
 	{
 	    parent::__construct();
 	    $this->load->helper('url');
@@ -10,8 +10,8 @@ class Home extends CI_Controller {
 	public function index()
 	{
 	    $data['base'] = base_url();
-		$this->load->view('header', $data);
-		$this->load->view('home_page', $data);
+	    $this->load->view('header', $data);
+		$this->load->view('guangfu_page', $data);
 		$this->load->view('footer', $data);
 	}
 }
