@@ -285,7 +285,7 @@
 		<div class="tab-pane row-fluid" id="successful_case">
 			<div>
 				<!-- successful_case_list_box_1 -->
-				<div class="successful_case_list_box span4">
+				<div class="successful_case_list_box col-lg-4">
 					<div class="successful_case_list_pic">
 						<a href="successful_case/successful_case_page_1" target="_blank">
 							<img src="<?php echo base_url().'img/successful_case_1.jpg'?>">
@@ -302,7 +302,7 @@
 				</div>
 
 				<!-- successful_case_list_box_2 -->
-				<div class="successful_case_list_box span4">
+				<div class="successful_case_list_box col-lg-4">
 					<div class="successful_case_list_pic">
 						<a href="successful_case/successful_case_page_1" target="_blank">
 							<img src="<?php echo base_url().'img/successful_case_2.jpg'?>">
@@ -319,7 +319,7 @@
 				</div>
 
 				<!-- successful_case_list_box_3 -->
-				<div class="successful_case_list_box span4">
+				<div class="successful_case_list_box col-lg-4">
 					<div class="successful_case_list_pic">
 						<a href="successful_case/successful_case_page_1" target="_blank">
 							<img src="<?php echo base_url().'img/successful_case_3.jpg'?>">
@@ -338,7 +338,7 @@
 
 			<div>
 				<!-- successful_case_list_box_4 -->
-				<div class="successful_case_list_box span4">
+				<div class="successful_case_list_box col-lg-4">
 					<div class="successful_case_list_pic">
 						<a href="successful_case/successful_case_page_1" target="_blank">
 							<img src="<?php echo base_url().'img/successful_case_4.jpg'?>">
@@ -355,7 +355,7 @@
 				</div>
 
 				<!-- successful_case_list_box_5 -->
-				<div class="successful_case_list_box span4">
+				<div class="successful_case_list_box col-lg-4">
 					<div class="successful_case_list_pic">
 						<a href="successful_case/successful_case_page_1" target="_blank">
 							<img src="<?php echo base_url().'img/successful_case_5.jpg'?>">
@@ -372,7 +372,7 @@
 				</div>
 
 				<!-- successful_case_list_box_6 -->
-				<div class="successful_case_list_box span4">
+				<div class="successful_case_list_box col-lg-4">
 					<div class="successful_case_list_pic">
 						<a href="successful_case/successful_case_page_1" target="_blank">
 							<img src="<?php echo base_url().'img/successful_case_6.jpg'?>">
@@ -391,7 +391,7 @@
 
 			<div>
 				<!-- successful_case_list_box_7 -->
-				<div class="successful_case_list_box span4">
+				<div class="successful_case_list_box col-lg-4">
 					<div class="successful_case_list_pic">
 						<a href="successful_case/successful_case_page_1" target="_blank">
 							<img src="<?php echo base_url().'img/successful_case_7.jpg'?>">
@@ -408,7 +408,7 @@
 				</div>
 
 				<!-- successful_case_list_box_8 -->
-				<div class="successful_case_list_box span4">
+				<div class="successful_case_list_box col-lg-4">
 					<div class="successful_case_list_pic">
 						<a href="successful_case/successful_case_page_1" target="_blank">
 							<img src="<?php echo base_url().'img/successful_case_8.jpg'?>">
@@ -425,7 +425,7 @@
 				</div>
 
 				<!-- successful_case_list_box_9 -->
-				<div class="successful_case_list_box span4">
+				<div class="successful_case_list_box col-lg-4">
 					<div class="successful_case_list_pic">
 						<a href="successful_case/successful_case_page_1" target="_blank">
 							<img src="<?php echo base_url().'img/successful_case_9.jpg'?>">

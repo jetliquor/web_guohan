@@ -1,21 +1,8 @@
 @CHARSET "UTF-8";
 /* home_page */
-#top{
-	height: 30px;
-	background: gray;
-	width: 100%;
-}
+
 #english{
 	color: white;
-}
-#img_logo{
-	margin-top:-14px;
-	margin-left:-13px;
-	max-width:100px;
-	max-height:50px
-}
-#caidan{
-	padding: 6px
 }
 #content{
 	margin-top: 0px;
@@ -45,10 +32,83 @@
 	background-color: #F5F5F5;
 	width: 100%;
 }
-#guangfu_li{
+
+/* /home_page */
+
+
+/* header */
+#top{
+	height: 30px;
+	background: gray;
+	width: 100%;
+	padding-top: 5px;
+	padding-right: 15px;
+}
+#img_logo{
+	margin-top:-46px;
+	margin-left:-16px;
+	max-width:200px;
+	max-height:100px
+}
+#caidan{
+	padding-top: 7px;
+	margin-left: 180px;
+}
+.guangfu_li{
 	width:100px;
 }
-/* /home_page */
+.our_contact{
+	height: 320px;
+}
+.page-right{
+	margin-left: 210px;
+	width: 5px;
+	height: 280px;
+	border-left: 1px solid #e5e5e5;
+}
+/* /header */
+
+
+/* footer */
+.gh-columns{
+	background-color: #656565;
+	min-height: 300px;
+
+}
+.gh-footer{
+	background-color: #656565;
+}
+.footer_ul{
+	width: 200px;
+	position: relative;
+	color: white;
+}
+.footer_ul ul{
+	list-style-type: none;
+}
+.footer_ul ul li a{
+	color: #DA261D;
+	font-family: "Times New Roman";
+}
+.footer_ul_h3{
+	margin-left:32px;
+	color: white;
+}
+.footer_ul li{
+	color: white;
+}
+#footer{
+	position: relative;
+}
+
+#footer ul{
+	width: 334px;
+	margin: 0 auto;
+}
+/* /footer */
+
+
+
 
 /* guangfu_page */
 
@@ -60,6 +120,10 @@
  	font-size:large;
  	line-height:2; 
 }
+/* /guangfu_page */
+
+
+
 
 /* national_policy_page */
 
@@ -80,6 +144,8 @@
 }
 /* /national_policy_page */
 
+
+
 /* tech_adv_page */
 .tech_adv_list_pic{
 	padding: 15px 10px 15px 10px;
@@ -97,6 +163,8 @@
 	margin-top: 12px;
 }
 /* /tech_adv_page */
+
+
 
 /* successful_case_page */
 .successful_case_list_box{
@@ -124,4 +192,4 @@
 }
 /* /successful_case_page */
 
-/* guangfu_page */
+
