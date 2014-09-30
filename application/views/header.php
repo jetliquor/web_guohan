@@ -39,10 +39,11 @@
 					<li class="guangfu_li"><a href="#" class="dropdown-toggle1" id="qiyezixun"
 						data-toggle="dropdown1"><p class="text-center">企业咨询</p></a>
 					</li>
-					
+					<li class="guangfu_li"><a href="#" id="jishuzhichi"><p class="text-center">技术支持</p></a></li>
 					<li class="guangfu_li"><a href="#callback"	class="cb-trigger" data-toggle="modal" id="lianxiwomen"><p class="text-center">联系我们</p></a></li>
 					
 					<li class="guangfu_li"><a href="#" id="jiaruwomen"><p class="text-center">加入我们</p></a></li>
+					
 				</ul>			
 			</div>
 			<!-- /.navbar-collapse -->

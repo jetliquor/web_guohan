@@ -93,43 +93,49 @@
 	<script type="text/javascript" src="<?php echo base_url().'js/bootstrap.js'?>"></script>
 	<script type="text/javascript" src="<?php echo base_url().'js/tab.js'?>"></script>
 	<script type="text/javascript">
-		$(document).ready(function(){
+ 		$(document).ready(function(){
 			$(document).off('click.bs.dropdown.data-api');
 			dropdownOpen();
-		});
+		}); 
 		window.onload=function(){	
 			document.getElementById("taiyangneng").onmouseover=function(){
-				document.getElementById("taiyangneng").setAttribute("style","border-right: 1px solid #e5e5e5;border-left: 1px solid #e5e5e5;color:red;font-style:bold;");
+				document.getElementById("taiyangneng").setAttribute("style","border-right: 1px solid #e5e5e5;border-left: 1px solid #e5e5e5;color: red;font-style:bold;");
 			};
 			document.getElementById("taiyangneng").onmouseout=function(){
-				document.getElementById("taiyangneng").setAttribute("style","color:black;");
+				document.getElementById("taiyangneng").setAttribute("style","color: #777777;");
 			};
 			document.getElementById("diandongqiche").onmouseover=function(){
 				document.getElementById("diandongqiche").setAttribute("style","border-right: 1px solid #e5e5e5;border-left: 1px solid #e5e5e5;color:red;font-style:bold;");
 			};
 			document.getElementById("diandongqiche").onmouseout=function(){
-				document.getElementById("diandongqiche").setAttribute("style","color:black;");
+				document.getElementById("diandongqiche").setAttribute("style","color: #777777;");
 			};
 			document.getElementById("qiyezixun").onmouseover=function(){
 				document.getElementById("qiyezixun").setAttribute("style","border-right: 1px solid #e5e5e5;border-left: 1px solid #e5e5e5;color:red;font-style:bold;");
 			};
 			document.getElementById("qiyezixun").onmouseout=function(){
-				document.getElementById("qiyezixun").setAttribute("style","color:black;");
+				document.getElementById("qiyezixun").setAttribute("style","color: #777777;");
+			};
+			document.getElementById("jishuzhichi").onmouseover=function(){
+				document.getElementById("jishuzhichi").setAttribute("style","border-right: 1px solid #e5e5e5;border-left: 1px solid #e5e5e5;color:red;font-style:bold;");
+			};
+			document.getElementById("jishuzhichi").onmouseout=function(){
+				document.getElementById("jishuzhichi").setAttribute("style","color: #777777;");
 			};
 			document.getElementById("lianxiwomen").onmouseover=function(){
 				document.getElementById("lianxiwomen").setAttribute("style","border-right: 1px solid #e5e5e5;border-left: 1px solid #e5e5e5;color:red;font-style:bold;");
 			};
 			document.getElementById("lianxiwomen").onmouseout=function(){
-				document.getElementById("lianxiwomen").setAttribute("style","color:black;");
+				document.getElementById("lianxiwomen").setAttribute("style","color: #777777;");
 			};
 			document.getElementById("jiaruwomen").onmouseover=function(){
 				document.getElementById("jiaruwomen").setAttribute("style","border-right: 1px solid #e5e5e5;border-left: 1px solid #e5e5e5;color:red;font-style:bold;");
 			};
 			document.getElementById("jiaruwomen").onmouseout=function(){
-				document.getElementById("jiaruwomen").setAttribute("style","color:black;");
+				document.getElementById("jiaruwomen").setAttribute("style","color: #777777;");
 			};
 		};
-		function dropdownOpen() {
+/*  		function dropdownOpen1() {
 			$('li.dropdown').mouseover(function(){
 				alert('1');
 				  $(this).find('ul').slideDown("slow");//you can give it a speed
@@ -138,7 +144,7 @@
 				  });
 				  $('li.dropdown').mouseleave(function(){
 				  $(this).find('ul').slideUp(0);
-				 });
+				 }); 
 
 // 			var $dropdownLi = $('li.dropdown');
 // 			$dropdownLi.mouseover(function() {
@@ -146,7 +152,7 @@
 // 			}).mouseout(function() {
 //  			$(this).removeClass('open'); 
 // 			});
-		}
+		} */
 
 // 		$(document).ready(function(){//直接使用次代码会导致a标签的超链接失效
 			  
