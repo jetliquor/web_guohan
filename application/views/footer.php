@@ -1,5 +1,5 @@
 <!-- <p class="page-header"></p> -->
-<div class="">
+<div class="container footer">
 	<div class="gh-columns row-fluid">
 		<div class="footer_ul col-lg-2">
 			<h3 class="text-center">关于IBM</h3>
@@ -11,8 +11,6 @@
 				<li><a href="http://research.ibm.com/labs/china/index.shtml" tabindex="0">IBM 中国研究院 （英文）</a></li>
 				<li><a href="http://www.ibm.com/ibm/cn/cdl/index.shtml?lnk=fai-icdc-cnzh" tabindex="0">IBM 中国开发中心</a></li>
 				<li><a href="http://www.ibm.com/ibm/cn/corporateresponsibility/index.shtml?lnk=fai-csre-cnzh" tabindex="0">企业责任</a></li>
-				<li><a href="http://www.ibm.com/ibm/cn/university/index.shtml?lnk=fai-univ-cnzh" tabindex="0">大学合作</a></li>
-				<li><a href="http://www.greateribm.com?lnk=fai-ipap-cnzh" tabindex="0">IBM 人过去和现在 (英文)</a></li>
 			</ul>
 		</div>
 		<div class="footer_ul col-lg-2" aria-label="提供信息给">
@@ -71,7 +69,9 @@
 			</ul>
 		</div>
 	</div>
-	
+	<div class="page-header-hi">
+	<p class="page-header"></p>
+	</div>
 	<div class="container1 gh-footer">
 		<div class="navbar" id="footer">
 			<ul class="list-inline pull-center">

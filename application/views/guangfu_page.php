@@ -22,13 +22,13 @@
 			<div>
 				<h4 class="page-header">光伏简介：</h4>
 			</div>
-			<div class="row-fluid">
-				<div class="span6">
+			<div class="row-fluid container">
+				<div class="col-lg-6">
 					<p class="p_guanfu_1 well">
 						光伏是光生伏特的简称，简单来说就是光转变成电的一种现象。也就是利用太阳能的最佳方式是光伏转换，就是利用光伏效应，使太阳光射到硅材料上产生电流直接发电。以硅材料的应用开发形成的产业链条称之为“光伏产业”，包括高纯多晶硅原材料生产、太阳能电池生产、太阳能电池组件生产、相关生产设备的制造等。
 					</p>
 				</div>
-				<div class="span6">
+				<div class="col-lg-6">
 					<img class="img-polaroid img-rounded" alt="光伏"
 						src="<?php echo base_url().'img/guangfujianjie.jpg'?>" />
 				</div>
