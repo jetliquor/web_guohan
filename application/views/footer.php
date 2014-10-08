@@ -16,7 +16,7 @@
 			</ul>
 		</div>
 		<div class="footer_ul col-lg-2" aria-label="提供信息给">
-			<h3 class="text-center">提供信息给</h3>
+			<h3 class="text-center">提供信息</h3>
 			<ul>
 				<li><a href="http://www.ibm.com/services/cn/c-suite/?lnk=fpi-bidm-cnzh" tabindex="0">业务及 IT 决策者</a></li>
 				<li><a href="http://www.ibm.com/solutions/cn/industries/?re=footer&amp;lnk=fpi-indu-cnzh" tabindex="0">行业</a></li>
@@ -49,7 +49,7 @@
 			</ul>
 		</div>
 		<div class="footer_ul col-lg-2" aria-label="选购">
-			<h3 class="text-center">选购</h3>
+			<h3 class="text-center">选购&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 			<ul>
 				<li><a href="//www.ibm.com/products/specialoffers/cn/zh/index.html" tabindex="0">特惠方案</a></li>
 				<li><a href="http://www.ibm.com/software/cn/popularproducts/index.html?re=ibmhpfooter" tabindex="0">主流软件</a></li>
@@ -75,10 +75,10 @@
 	<div class="container1 gh-footer">
 		<div class="navbar" id="footer">
 			<ul class="list-inline pull-center">
-				<li class=""><a style="color: white;" href="#" rel="nofollow">法律声明</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-				<li class=""><a style="color: white;" href="#" rel="nofollow">隐私保护</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-				<li class=""><a style="color: white;" href="#" >联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-				<li class=""><a style="color: white;" href="#" >网站地图</a></li>
+				<li class=""><a style="color: black;" href="#" rel="nofollow">法律声明</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li class=""><a style="color: black;" href="#" rel="nofollow">隐私保护</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li class=""><a style="color: black;" href="#" >联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li class=""><a style="color: black;" href="#" >网站地图</a></li>
 			</ul>
 			<p class="text-center">版权所有 © XXX公司 2014。保留一切权利。</p>
 		</div>

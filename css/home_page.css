@@ -1,9 +1,6 @@
 @CHARSET "UTF-8";
 /* home_page */
 
-html{
-	background-image: url(/img/home_page_background.jpg);
-}
 #english{
 	color: white;
 }
@@ -48,7 +45,8 @@ html{
 	padding-right: 15px;
 }
 #img_logo{
-
+	margin-top:-16px;
+	margin-left:10px;
 	max-width:200px;
 	max-height:100px
 }
@@ -76,29 +74,26 @@ html{
 
 /* footer */
 .gh-columns{
-	background-color: #656565;
+
 	min-height: 300px;
 
 }
 .gh-footer{
-	background-color: #656565;
+
 }
 .footer_ul{
 	width: 200px;
 	position: relative;
-	color: white;
+	color: #DA261D;
 }
 .footer_ul ul{
 	list-style-type: none;
 }
 .footer_ul ul li a{
-	color: #DA261D;
+	color: black;
 	font-family: "Times New Roman";
 }
-.footer_ul_h3{
-	margin-left:32px;
-	color: white;
-}
+
 .footer_ul li{
 	color: white;
 }
