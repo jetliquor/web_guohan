@@ -1,6 +1,9 @@
 @CHARSET "UTF-8";
 /* home_page */
 
+html{
+	background-image: url(/img/home_page_background.jpg);
+}
 #english{
 	color: white;
 }
@@ -45,8 +48,7 @@
 	padding-right: 15px;
 }
 #img_logo{
-	margin-top:-46px;
-	margin-left:-16px;
+
 	max-width:200px;
 	max-height:100px
 }
