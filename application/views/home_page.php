@@ -1,21 +1,18 @@
- 		<div id="content"> 
-			<div id="myCarousel" class="carousel slide" align="center">
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-				</ol>
-				<!-- Carousel items -->
+ <div id="content"> 
+	<div id="myCarousel" class="carousel slide" align="center">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<!-- Carousel items -->
 		<div class="carousel-inner">
 			<div class="item active" >
-				<img class="img-polaroid1"
-					src="<?php echo base_url().'img/bootstrap-mdo-sfmoma-04.jpg'?>"
+				<img style="position: relative;" class="img-polaroid1"
+					src="<?php echo base_url().'img/bootstrap-mdo-sfmoma-04-new.jpg'?>"
 					 alt="">
 				<div class="carousel-caption">
-					<h4>First Thumbnail label</h4>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-						Donec id elit non mi porta gravida at eget metus. Nullam id
-						dolor id nibh ultricies vehicula ut id elit.</p>
+					
 				</div>
 			</div>
 			<div class="item">
@@ -29,8 +26,8 @@
 		</div>
 		<!-- Carousel nav -->
 		<a class="carousel-control left" href="#myCarousel"
-			data-slide="prev">&lsaquo;</a>
+			data-slide="prev"><label class="carousel-label">&lsaquo;</label></a>
 		<a class="carousel-control right" href="#myCarousel"
-			data-slide="next">&rsaquo;</a>
+			data-slide="next"><label class="carousel-label">&rsaquo;</label></a>
 	</div>
 </div>

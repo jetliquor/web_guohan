@@ -1,8 +1,11 @@
 @CHARSET "UTF-8";
 /* home_page */
-
-#english{
-	color: white;
+html{
+	background-color: #F8F8F8;
+}
+.carousel-label{
+	position: absolute;
+	top: 45%;
 }
 #content{
 	margin-top: 0px;
@@ -38,11 +41,24 @@
 
 /* header */
 #top{
-	height: 30px;
-	background: gray;
-	width: 100%;
-	padding-top: 5px;
-	padding-right: 15px;
+}
+#navbar{
+	margin-bottom: 5px;
+}
+#mailto{
+	position: absolute;
+	right: 200px;
+	font-family: "Times New Roman","Microsoft YaHei",LiSu;
+	font-size: 16px;
+	color: #9B0512;
+}
+#english{
+	color: #9B0512;
+	font-family: "Times New Roman","Microsoft YaHei",LiSu;
+	font-size: 16px;
+}
+#english p{
+	margin-bottom: 0;
 }
 #img_logo{
 	margin-top:-16px;
@@ -51,14 +67,32 @@
 	max-height:100px
 }
 #caidan{
-	padding-top: 7px;
-	margin-left: 180px;
+	float: left;
+}
+#caidan ul li{
+	font-family: STKaiti,"Microsoft YaHei",LiSu;
+	font-size: 16px;
+	font-weight: bold;
+}
+#caidan ul li a p{
+	margin-bottom: 0;
+}
+.navbar-default .navbar-nav li a {
+  color: black;
+}
+#navbar-left{
+	border: none;
+	margin-bottom1: 0;
+	position: relative;
+}
+.navbar{
+	margin-bottom: 0;
+	background-color: #F5F5F5;
 }
 .guangfu_li{
 	width: 100px;
 }
 .guangfu_li p{
-
 }
 .our_contact{
 	height: 320px;
@@ -74,9 +108,24 @@
 
 /* footer */
 .gh-columns{
-
 	min-height: 240px;
-
+	position: relative;
+	top: 20px;
+}
+.gh-columns_ul{
+	min-width: 800px;
+	margin: 0 auto;
+}
+.gh-columns_ul li p{
+	font-family: STKaiti,"Microsoft YaHei",LiSu;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 40px;
+}
+.gh-columns_ul li ul li a{
+	font-family: STKaiti,"Microsoft YaHei",LiSu;
+	font-size: 14px;
+	font-weight: normal;
 }
 .gh-footer{
 
@@ -87,7 +136,7 @@
 }
 
 .footer_ul{
-	width: 200px;
+	max-width: 180px;
 	position: relative;
 	color: #DA261D;
 }
@@ -105,11 +154,16 @@
 #footer{
 	position: relative;
 }
-
-.footer{
-	min-width: 1250px;
+#footer ul li a{
+	font-family: STKaiti,"Microsoft YaHei",LiSu;
+	font-size: 14px;
+	font-weight: normal;
 }
-
+#footer p{
+	font-family: STKaiti,"Microsoft YaHei",LiSu;
+	font-size: 14px;
+	font-weight: normal;	
+}
 #footer ul{
 	width: 334px;
 	margin: 0 auto;

@@ -16,13 +16,18 @@
 <!-- <body> -->
 <body class="" id="page-homepage">
 	<!-- 导航栏  -->
-	<div class="" id="top">
-		<a class="" id="english" href="#"><p class="text-right">English</p></a>
+	<div class="container" id="top">
+		
+			<a id="mailto" href="mailto:#">guohan@163.com</a>
+		
+		
+			<a class="" id="english" href="#"><p class="text-right">English</p></a>
+		
 	</div>
-	<div class="container1" style="height: 69px;">
-		<nav class="navbar navbar-default navbar-inverse1" role="navigation">
+	<div class="container" id="navbar">
+		<nav class="navbar navbar-default navbar-inverse1" id="navbar-left" role="navigation">
 			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header1">
+			<div class="">
 				<a class="navbar-brand" href="<?php echo base_url()?>"><img id="img_logo" alt="logo" src="<?php echo base_url().'img/gh_logo.png'?>"></a>
 			</div>
 
