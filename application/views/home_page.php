@@ -10,17 +10,17 @@
 			<div class="item active" >
 				<img style="position: relative;" class="img-polaroid1"
 					src="<?php echo base_url().'img/bootstrap-mdo-sfmoma-04-new.jpg'?>"
-					 alt="">
+					 title="">
 				<div class="carousel-caption">
 					
 				</div>
 			</div>
 			<div class="item">
-				<img alt="2" class="img-polaroid1"
+				<img title="2" class="img-polaroid1"
 					src="<?php echo base_url().'img/bootstrap-mdo-sfmoma-05.jpg'?>" />
 			</div>
 			<div class="item">
-				<img alt="3" class="img-polaroid1"
+				<img title="3" class="img-polaroid1"
 					src="<?php echo base_url().'img/bootstrap-mdo-sfmoma-06.jpg'?>" />
 			</div>
 		</div>

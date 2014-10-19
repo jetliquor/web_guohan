@@ -1,12 +1,7 @@
 
 <div class="container">
-	<div class="tab-pane" id="guangfujishu">
-		<div class="">
-			<div class="span12" style="margin-left: 0px">
-				<img class="img-polaroid img-rounded" alt="光伏"
-					src="<?php echo base_url().'img/gf_jishufazhan.jpg'?>" />
-			</div>
-		</div>
+	<div class="tab-pane1" id="guangfujishu">
+		<img class="img-rounded" title="光伏" src="<?php echo base_url().'img/gf_jishufazhan.jpg'?>" />
 	</div>
 	<h1></h1>
 	<ul class="nav nav-tabs">
@@ -29,7 +24,7 @@
 					</p>
 				</div>
 				<div class="col-lg-6">
-					<img class="img-polaroid img-rounded" alt="光伏"
+					<img class="img-polaroid img-rounded jianjie_img" title="光伏"
 						src="<?php echo base_url().'img/guangfujianjie.jpg'?>" />
 				</div>
 			</div>
@@ -63,7 +58,7 @@
 			<!-- 					</div> -->
 			<!-- 					<div class="row-fluid"> -->
 			<!-- 						<div class="span6"> -->
-			<!-- 							<img class="img-polaroid img-rounded" alt="光伏" src="<?php echo base_url().'img/gf_guojiazhidu.jpg'?>" /> -->
+			<!-- 							<img class="img-polaroid img-rounded" title="光伏" src="<?php echo base_url().'img/gf_guojiazhidu.jpg'?>" /> -->
 			<!-- 						</div> -->
 			<!-- 						<div class="span6"> -->
 			<!-- 							<p class="p_guanfu_1 well"> -->

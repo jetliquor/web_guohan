@@ -113,7 +113,7 @@ html{
 	top: 20px;
 }
 .gh-columns_ul{
-	min-width: 800px;
+
 	margin: 0 auto;
 }
 .gh-columns_ul li p{
@@ -182,6 +182,14 @@ html{
  	text-indent:2em;
  	font-size:large;
  	line-height:2; 
+}
+#guangfujishu img{
+	position: relative;
+	width: 100%;
+}
+.jianjie_img{
+	position: relative;
+	width: 100%;
 }
 /* /guangfu_page */
 

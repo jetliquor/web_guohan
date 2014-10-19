@@ -28,7 +28,7 @@
 		<nav class="navbar navbar-default navbar-inverse1" id="navbar-left" role="navigation">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="">
-				<a class="navbar-brand" href="<?php echo base_url()?>"><img id="img_logo" alt="logo" src="<?php echo base_url().'img/gh_logo.png'?>"></a>
+				<a class="navbar-brand" href="<?php echo base_url()?>"><img id="img_logo" title="logo" src="<?php echo base_url().'img/gh_logo.png'?>"></a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
