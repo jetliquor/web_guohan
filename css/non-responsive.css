@@ -124,20 +124,25 @@ body {
 }
 
 #top-nav {
-	width: 970px;
+	width: 100%;
 	height: 25px;
 	margin: 0px auto;
 }
 
 #footer {
-	width: 100%;
+	background: #7F7F7F url(../img/bg_footer.jpg) repeat-x;
+	padding: 0px;
+	min-width: 1000px;
+	width: auto !important;
 	margin: 0px auto;
-	background: #EEE;
+	cursor: default;
 }
 
 #nav-menu {
-	background: url(../img/menu_nav_bg.jpg) repeat-x left bottom !important;
+	background: url(../img/bg_navbar.jpg) repeat-x left bottom !important;
 	height: 50px;
+	border-top: 1px solid #d7d4cf;
+	border-bottom: 1px solid #C4C6C3;
 	min-width: 1000px;
 	width: auto !important;
 	margin: 0px auto;
