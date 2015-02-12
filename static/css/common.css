@@ -8,7 +8,6 @@ body {
 	font-family: 'freight-sans-pro', 'Helvetica Neue', Helvetica, Arial,
 		sans-serif;
 	letter-spacing: 0.03em;
-	text-align: left;
 	font-size: 18px;
 	line-height: 1.45;
 	color: #656565;
@@ -91,21 +90,3 @@ body {
 	padding: 10px;
 	text-align: center;
 }
-
-#nav_bar {
-	padding-top: 80px;
-}
-
-#nav_group button {
-	width: 100%;
-}
-
-#nav_group div {
-	text-align: center;
-}
-
-#nav_group a {
-	font-size: 24px;
-	color: gray;
-}
-
